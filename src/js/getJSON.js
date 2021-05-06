@@ -1,4 +1,4 @@
-const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+const XMLHttpRequest = require('xmlhttprequest');
 
 export default function getJSON(url, callback) {
   const xhr = new XMLHttpRequest();
