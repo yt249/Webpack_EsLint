@@ -1,3 +1,5 @@
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
 export default function getJSON(url, callback) {
   const xhr = new XMLHttpRequest();
   xhr.open('GET', url, true);
